@@ -39,7 +39,7 @@ This is a full-stack MERN application that allows users to register, login, and 
    git clone https://github.com/aifa00/picvault.git
    cd picvault
 
-### 1. Install Dependencies
+### 2. Install Dependencies
    - For Backend:
    Navigate to the backend folder:
    cd backend
@@ -52,24 +52,24 @@ This is a full-stack MERN application that allows users to register, login, and 
    Install frontend dependencies:
    npm install
 
-3. Setup Environment Variables
+### 3. Setup Environment Variables
    Create a .env file in the backend folder and configure the following environment variables:
 
-   PORT=4000
-   CLIENT_BASE_URL=http://localhost:3000
-   USER=your_email@example.com
-   APP_PASSWORD=your_app_password_here
-   MONGODB_URL=your_mongodb_url_here
-   JWT_SECRET=your_jwt_secret_key_here
-   AWS_ACCESS_KEY_ID=your_aws_access_key_id_here
-   AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key_here
-   AWS_REGION=your_aws_region_here
-   AWS_BUCKET_NAME=your_aws_bucket_name_here
+   - PORT=4000
+   - CLIENT_BASE_URL=http://localhost:3000
+   - USER=your_email@example.com
+   - APP_PASSWORD=your_app_password_here
+   - MONGODB_URL=your_mongodb_url_here
+   - JWT_SECRET=your_jwt_secret_key_here
+   - AWS_ACCESS_KEY_ID=your_aws_access_key_id_here
+   - AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key_here
+   - AWS_REGION=your_aws_region_here
+   - AWS_BUCKET_NAME=your_aws_bucket_name_here
 
    Create a .env file in the frontend folder and configure the following environment variables:
    REACT_APP_BASE_URL=http://localhost:4000
 
-4. Running the Application
+### 4. Running the Application
 
    - Running the Backend:
    npm start
@@ -79,9 +79,9 @@ This is a full-stack MERN application that allows users to register, login, and 
    npm start
    The frontend will run on http://localhost:3000.
 
-5. Access the Application
+### 5. Access the Application
    Once both servers are running, Open your browser and visit http://localhost:3000
 
-7. Access the Deployed Version
+### 6. Access the Deployed Version
    The deployed version of the application is accessible at:
    https://picvault-images.vercel.app
