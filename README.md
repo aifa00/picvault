@@ -40,17 +40,29 @@ This is a full-stack MERN application that allows users to register, login, and 
    cd picvault
 
 ### 2. Install Dependencies
-   - For Backend:
+- **For Backend:**
    Navigate to the backend folder:
-   cd backend
-   Install backend dependencies:
-   npm install
 
-   - For Frontend:
+   ```bash
+     cd backend
+   ```
+   Install backend dependencies:
+   
+   ```bash
+     npm install
+   ```
+
+- **For Frontend:**
    Navigate to the frontend folder:
-   cd ../frontend
+
+   ```bash
+     cd ../frontend
+   ```
    Install frontend dependencies:
-   npm install
+   
+   ```bash
+     npm install
+   ```
 
 ### 3. Setup Environment Variables
    Create a .env file in the backend folder and configure the following environment variables:
@@ -67,17 +79,27 @@ This is a full-stack MERN application that allows users to register, login, and 
    - AWS_BUCKET_NAME=your_aws_bucket_name_here
 
    Create a .env file in the frontend folder and configure the following environment variables:
-   REACT_APP_BASE_URL=http://localhost:4000
+   - REACT_APP_BASE_URL=http://localhost:4000
 
 ### 4. Running the Application
 
-   - Running the Backend:
-   npm start
-   The backend will run on http://localhost:4000.
-   
-   - Running the Frontend:
-   npm start
-   The frontend will run on http://localhost:3000.
+- **Running the Backend:**
+    Start the backend server:
+  
+     ```bash
+     npm start
+     ```
+  
+     The backend will run on [http://localhost:4000](http://localhost:4000).
+
+- **Running the Frontend:**
+     Start the frontend React app:
+  
+     ```bash
+     npm start
+     ```
+  
+     The frontend will run on [http://localhost:3000](http://localhost:3000).
 
 ### 5. Access the Application
    Once both servers are running, Open your browser and visit http://localhost:3000
