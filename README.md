@@ -4,7 +4,7 @@
 
 This is a full-stack MERN application that allows users to register, login, and manage images with various features like adding, editing, deleting, and rearranging images using drag-and-drop functionality. The application is divided into frontend and backend, leveraging React for the frontend and Express with MongoDB for the backend.
 
-![ ](assets/screenshot.png)
+![ ](picvault-image.png)
 
 ## Features and Functionalities
 
